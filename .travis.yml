@@ -1,10 +1,15 @@
 language: ruby
 cache: bundler
 
-rbenv:
+rvm:
   - 2.2.2
 
 script: 'bundle exec rspec'
+
+branches:
+  only:
+    - master
+    - /^donigian.*$/
 
 notifications:
   email:
