@@ -1,5 +1,6 @@
 RSpec Rails Seed
 ===================
+[![Build Status](https://travis-ci.org/donigian/RSpec_Rails_Guard_Capybara_Seed.svg?branch=master)](https://travis-ci.org/donigian/RSpec_Rails_Guard_Capybara_Seed)
 
 This is a seed project which demonstrates how to use RSpec with Guard /Capybara to unit test Rails projects.
 CI is done using Travis.
@@ -37,3 +38,4 @@ rails g model location latitude:decimal longitude:decimal
 rake db:create:all && rake db:migrate && rake db:test:clone
 
 ```
+
