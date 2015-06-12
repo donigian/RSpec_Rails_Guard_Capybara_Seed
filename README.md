@@ -27,3 +27,13 @@ bundle install
 # to prepare RSpec for use with Rails
 rails generate rspec:install
 ```
+
+Writing ActiveRecord specifications 
+```
+rails g model location latitude:decimal longitude:decimal
+
+# creates databases and then migrates the schema of the default development environment
+# also clones the development database structure to the test database
+rake db:create:all && rake db:migrate && rake db:test:clone
+
+```

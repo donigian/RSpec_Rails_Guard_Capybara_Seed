@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
 
 gem 'rspec-rails', :group => [:test, :development]
+gem 'rspec-its'
+gem 'rspec'
+gem 'rspec-collection_matchers'
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
