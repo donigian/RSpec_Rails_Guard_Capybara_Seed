@@ -1,0 +1,12 @@
+language: ruby
+cache: bundler
+
+rbenv:
+  - 2.2.2
+
+script: 'bundle exec rspec'
+
+notifications:
+  email:
+    - donigian@gmail.com
+
